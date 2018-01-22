@@ -1,0 +1,575 @@
+
+
+
+     
+
+
+*
+{
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body
+{
+	background-image: url("back-doc.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav
+{
+	display:flex;
+	flex-direction: row;
+	padding-top: 10vh;
+	}
+
+.a1
+{
+	background-image: url("music.jpg");
+	background-size: cover;
+}
+
+.a2
+{
+	background-image: url("code.jpeg");
+	background-size: cover;
+}
+
+.a3
+{
+	background-image: url("basket.jpg");
+	background-size: cover;
+}
+
+.a4
+{
+	background-image: url("ard.jpg");
+	background-size: cover;
+}
+
+
+.buttons
+{
+	height: 20vh;
+	width:100vh;
+	text-align: center;
+	background: none;
+	border:none;
+	justify-content: space-around;
+	padding: 10px;
+	font-family: Elianto;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+.head
+{
+	width:100vw;
+	padding-bottom: 40vh;
+	background-image: url("musician.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	padding-top: 20vh;
+	
+}
+
+h4{
+	font-family: Elianto;
+	text-align: center;
+	font-size: 100px;
+}
+
+.about
+{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.about-box
+{
+	height: 100vh;
+	width: 33.33%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 24vh;
+}
+
+.about-body
+{
+	padding-top: 40vh;
+}
+
+.skills-text
+{
+	width:100vw;
+	background:white;
+	opacity:0.85;
+	text-align: center;
+}
+
+.skills
+{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.skills-box
+{
+	height: 60vh;
+	width: 33.33%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-bottom: 10vh;
+	
+}
+
+
+
+.progress
+{
+	
+	
+}
+
+.interests-text
+{
+	width:100vw;
+	background:white;
+	opacity:0.85;
+	text-align: center;
+
+}
+
+
+.interests-nav
+{
+	display: flex;
+	flex-direction: column;
+	height:100vh;
+	width:20vw;
+	background:white;
+}
+
+.nav-content
+{
+	height: 33.33vh;
+	border: none;
+}
+
+
+
+.b1, .b2, .b3, .b4{
+	display: none;
+}
+
+
+
+.interests
+{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20vh 20vh;
+	position: relative;
+}
+
+.interest-box
+{
+	
+	width: 80%;
+	background:white;
+	opacity: 0.85;
+	text-align: left;
+	padding:15vh;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	font-size: 14px;	
+}
+
+.interest-box h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contact
+{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.contact-box
+{
+	height: 60vh;
+	width:100%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img
+{
+	width:30vh;
+	height:30vh;
+	padding-bottom: 2vh;
+	transition:width 2s, height 2s;
+}
+
+.img2
+{
+	width:45vh;
+	height:30vh;
+}
+ 
+.img:hover{
+	width:35vh;
+	height:35vh;
+
+}
+
+.mod
+{
+	padding-bottom: 14vh;
+}
+
+.contact-parent
+{
+	display: flex;
+	flex-direction: column;
+}
+.contact-text
+{
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+}
+
+@font-face
+{
+	font-family: Elianto;
+	src:url("Elianto-Regular.otf");
+}
+
+.head-mod
+{
+	font-family: Elianto;
+	font-size: 20px;
+	padding: 5vh;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url("back-doc.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav
+{
+	display:flex;
+	flex-direction: column;
+	}
+
+.a1
+{
+	background-image: url("music.jpg");
+	background-size: cover;
+}
+
+.a2
+{
+	background-image: url("code.jpeg");
+	background-size: cover;
+}
+
+.a3
+{
+	background-image: url("basket.jpg");
+	background-size: cover;
+}
+
+.a4
+{
+	background-image: url("ard.jpg");
+	background-size: cover;
+}
+
+
+.buttons
+{
+	height: 40px;
+	width:100vh;
+	background: none;
+	border:none;
+	justify-content: space-around;
+	font-family: Elianto;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.head
+{
+	width:100%;
+	padding-bottom: 40vh;
+	background-image: url("musician.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	padding-top: 20vh;
+	
+}
+
+h4{
+	font-family: Elianto;
+	text-align: center;
+	font-size: 100px;
+}
+
+.about
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.about-box
+{
+	height: 100vh;
+	width:100%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 24vh;
+}
+
+.about-body
+{
+	padding-top: 40vh;
+}
+
+.skills-text
+{
+	width:100vw;
+	background:white;
+	opacity:0.85;
+	text-align: center;
+}
+
+.skills
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.skills-box
+{
+	height: 60vh;
+	width: 100%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-bottom: 10vh;
+	
+}
+
+
+
+.progress
+{
+	
+	
+}
+
+.interests-text
+{
+	width:100vw;
+	background:white;
+	opacity:0.85;
+	text-align: center;
+
+}
+
+
+.interests-nav
+{
+	display: none;
+	flex-direction: column;
+	height:100vh;
+	width:20vw;
+	background:white;
+}
+
+.nav-content
+{
+	height: 33.33vh;
+	border: none;
+}
+
+
+
+.b1, .b2, .b3, .b4{
+	display: none;
+}
+
+
+
+.interests
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4% 4%;
+	position: relative;
+}
+
+.interest-box
+{
+	
+	width: 100%;
+	background:white;
+	opacity: 0.85;
+	text-align: left;
+	padding:15%;
+	border-right:1px groove black;
+	justify-content: space-between;
+	font-size: 14px;	
+}
+
+.interest-box h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contact
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
+}
+
+.contact-box
+{
+	height: 60vh;
+	width:100%;
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+	padding-top:12vh;
+	border-right:1px groove black;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img
+{
+	width:30vh;
+	height:30vh;
+	padding-bottom: 2vh;
+	transition:width 2s, height 2s;
+}
+
+.img2
+{
+	width:45vh;
+	height:30vh;
+}
+ 
+.img:hover{
+	width:35vh;
+	height:35vh;
+
+}
+
+.mod
+{
+	padding-bottom: 14vh;
+}
+
+.contact-parent
+{
+	display: flex;
+	flex-direction: column;
+}
+.contact-text
+{
+	background:white;
+	opacity: 0.85;
+	text-align: center;
+}
+
+@font-face
+{
+	font-family: Elianto;
+	src:url("Elianto-Regular.otf");
+}
+
+.head-mod
+{
+	font-family: Elianto;
+	font-size: 20px;
+	padding: 5vh;
+}
+}
+
